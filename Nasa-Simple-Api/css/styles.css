@@ -1,0 +1,44 @@
+iframe{
+  display: none;
+}
+*{
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+body::after{
+  content: "";
+  background-image: url("../background.jpg");
+opacity: 0.8999;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+}
+h1{
+  font-size: 3rem;
+}
+
+input, button{
+  color: black;
+  font-size: 1.3rem;
+  padding: 1%;
+}
+#image{
+  height: 600px;
+}
+img{
+  margin-left: 1%;
+  float: left;
+  max-width: 40%;
+  max-height: 100%;
+}
+#explanation{
+  float: left;
+  width: 58%;
+  margin-right: 1%;
+  font-size: 1.5rem;
+}
